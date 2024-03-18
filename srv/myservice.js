@@ -10,6 +10,10 @@ module.exports = (srv) => {
         },{
             "vendorId": 2,
             "name": "IBM"
+        },
+        {
+            "vendorId": 3,
+            "name": "Rob made changes"
         }];
         console.log("data aaya " + req.data.vendorId);
 
